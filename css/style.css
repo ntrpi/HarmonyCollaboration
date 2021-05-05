@@ -1,15 +1,46 @@
-html {
-  box-sizing:border-box;
-}
-
-*, *::before, *::after {
-  box-sizing:inherit;
+:root {
+  --lightBlue: #b4c3f0;
+  --mediumBlue: #7f99e6;
+  --darkBlue: #113573;
+  --darkRed: #ab1726;
+  --yellowHighlight: #ffa500;
 }
 
 body {
-  margin: auto;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.hc-logo {
+  height: 65px;
+}
+
+h1 {
+  color: var( --darkBlue );
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.bg-lb {
+  background-color: var( --lightBlue );
+}
+
+.text-border {
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 h2 {
   color: #113573;
