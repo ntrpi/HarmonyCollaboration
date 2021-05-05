@@ -8,105 +8,151 @@
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-width: 100%;
+}
+
+.container-np {
+  padding: 0;
 }
 
 .hc-logo {
-  height: 65px;
+  height: 50px;
 }
 
 h1 {
   color: var( --darkBlue );
   font-weight: bold;
   font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: -1px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 .bg-lb {
   background-color: var( --lightBlue );
 }
 
+.bg-mb {
+  background-color: var( --mediumBlue );
+}
+
 .text-border {
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
+.bb-hy {
+  border-bottom: 2px solid #ffa500;
+}
 
+a.link-hy:link {
+  color: black;
+  text-decoration: none;
+} 
 
+a.link-hy:visited {
+  color: black;
+} 
 
+a.link-hy:hover {
+  color: var( --yellowHighlight );  
+}
 
-
-
-
-
-
-
-
-
-
+.font-size-sm {
+  font-size: .8rem;
+}
 
 h2 {
   color: #113573;
-  font-size: 42pt;
+  font-size: 5rem;
   font-weight: bold;
-  font-style: italic;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+h2.banner {
+  padding-top: 12rem;
+  padding-left: 1.5rem;
+  padding-bottom: 1rem;
+  margin-bottom: 0;
 }
 
 h3 {
   color: #113573;
-  font-size: 32pt;
+  font-size: 2rem;
   font-weight: bold;
+  font-style: italic;
 }
 
 h4 {
-  color: black;
-  font-size: 24pt;
+  color: #113573;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
-
-footer {
-  background-color: #b4c3f0;
-}
-
-.separator {
-  border-bottom: 2px solid #ffa500;
-  padding: 1rem 0;
-}
-
-.separatorNone {
-  padding: 1rem 0;
-}
-
-.rowDiv {
-  display: flex;
-  flex-direction: row;
-  justify-content:space-between;
-} 
-
-.column3 {
-  width: 33%;
-  margin: 1rem;
-}
-
-footer .nav {
-  list-style-type: none;
-}
-
-footer a:link {
-  text-decoration: none;
+h5 {
   color: black;
-}
-
-footer a:hover {
-  text-decoration: none;
-  color: #ffa500;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
-footer a:visited {
-  color: black;
+.bg-img-home {
+  background: url( "http://theharmonycollaboration.com/wp-content/uploads/2021/05/homePageBanner.png" ) no-repeat;
+  background-size: cover;
 }
 
-.copyrightDiv {
-  font-size: .8rem;
-  margin: .8rem;
-  padding-bottom: 1rem;
+@media (max-width: 300px) {
+  .hc-logo {
+    height: 30px;
+  }
 }
+
+@media (max-width: 576px) {
+  .hc-logo {
+    height: 35px;
+  }
+  h1 {
+    font-size: 1.3rem;
+  }
+  h2 {
+    font-size: 1.6rem;
+  }
+  h2.banner {
+    padding-top: 6rem;
+    padding-left: 0;
+    padding-bottom: .1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hc-logo {
+    height: 40px;
+  }
+  h1 {
+    font-size: 1.7rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h2.banner {
+    padding-top: 8rem;
+    padding-left: 0;
+    padding-bottom: .5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .hc-logo {
+    height: 45px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 3.5rem;
+  }
+  h2.banner {
+    padding-top: 10rem;
+    padding-left: .5rem;
+    padding-bottom: 1rem;
+  }
+}
+
