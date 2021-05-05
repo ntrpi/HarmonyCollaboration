@@ -1,0 +1,81 @@
+html {
+  box-sizing:border-box;
+}
+
+*, *::before, *::after {
+  box-sizing:inherit;
+}
+
+body {
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+  color: #113573;
+  font-size: 42pt;
+  font-weight: bold;
+  font-style: italic;
+}
+
+h3 {
+  color: #113573;
+  font-size: 32pt;
+  font-weight: bold;
+}
+
+h4 {
+  color: black;
+  font-size: 24pt;
+  font-weight: bold;
+}
+
+
+footer {
+  background-color: #b4c3f0;
+}
+
+.separator {
+  border-bottom: 2px solid #ffa500;
+  padding: 1rem 0;
+}
+
+.separatorNone {
+  padding: 1rem 0;
+}
+
+.rowDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+} 
+
+.column3 {
+  width: 33%;
+  margin: 1rem;
+}
+
+footer .nav {
+  list-style-type: none;
+}
+
+footer a:link {
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #ffa500;
+  font-weight: bold;
+}
+
+footer a:visited {
+  color: black;
+}
+
+.copyrightDiv {
+  font-size: .8rem;
+  margin: .8rem;
+  padding-bottom: 1rem;
+}
