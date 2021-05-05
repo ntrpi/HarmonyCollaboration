@@ -4,3 +4,4 @@ deployment:
     - export DEPLOYPATH=/home/harmonycollab/public_html/scratch/
     - /bin/cp -R *.html $DEPLOYPATH
     - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R img $DEPLOYPATH
