@@ -25,14 +25,14 @@
         <div class="text-center py-2"><h3 >Our Vision</h3></div>
         <img class="float-left w-50 p-4 mr-2" src="http://theharmonycollaboration.com/wp-content/uploads/2016/03/hut.jpg" alt="A section of the mural.">
         <p class="py-3 px-5 lead">The Harmony Collaboration is an incorporated not-for-profit organization dedicated to fostering an appreciation of the Kiinwi Dabaadjmowin Mural, a significant heritage and cultural asset of the Mississaugas of the Credit First Nation. Harmony is inspired by a desire to build better relationships and broaden respectful dialogue between Indigenous and non-Indigenous communities, creating positive social change through the power of the performing arts.</p>
-        <div class="text-center font-weight-bold pb-5" style="font-size: 1.2rem;">
+        <div class="text-center font-weight-bold pb-5 bb-hy" style="font-size: 1.2rem;">
           <a href="http://mncfn.ca/" class="link-hy">Click here to learn more about the Mississaugas of the Credit First Nation.</a>
         </div>
       </section>
 
       <!-- Performances -->
       <section>
-        <div class="text-center py-2"><h3 >Performances</h3></div>
+        <div class="text-center pb-2 pt-5"><h3 >Performances</h3></div>
         <div class="container-fluid">
           <div class="row">
             <div class="col-sm">
