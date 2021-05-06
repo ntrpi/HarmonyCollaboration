@@ -13,7 +13,7 @@
     <main class="container-fluid">
       <!-- Land Acknowledgement -->
       <section class="py-2">
-        <div class="text-center py-2"><h3 >Land Acknowledgement</h3></div>
+        <div class="text-center pb-2 pt-4"><h3 >Land Acknowledgement</h3></div>
         <p class="font-italic lead">We begin by acknowledging that the land on which we live and work is part of the Treaty Lands and Territory of the Mississaugas of the Credit. For thousands of years, Indigenous peoples inhabited and cared for this land. In particular we acknowledge the territory of the Anishinabek, Huron-Wendat, Haudenosaunee and Ojibway/Chippewa peoples; the land that is home to the Métis; and most recently, the territory of the Mississaugas of the Credit First Nation who are direct descendants of the Mississaugas of the Credit. We are grateful to have the opportunity to work on this land, and by doing so, give our respect to its first inhabitants.</p>
         <div class="py-4">
           <img class="img-fluid" src="http://theharmonycollaboration.com/wp-content/uploads/2021/05/02Mural_6_small-2.png" alt="A section of the mural.">
