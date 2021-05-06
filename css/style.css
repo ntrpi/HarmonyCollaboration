@@ -9,6 +9,7 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   max-width: 100%;
+  background-image: linear-gradient( white, #b4c3f0, white );
 }
 
 .container-np {
@@ -44,6 +45,10 @@ h1 {
   border-bottom: 2px solid #ffa500;
 }
 
+.bb-dr {
+  border-bottom: 2px solid #ab1726;
+}
+
 a.link-hy:link {
   color: black;
   text-decoration: none;
@@ -54,7 +59,7 @@ a.link-hy:visited {
 } 
 
 a.link-hy:hover {
-  color: var( --yellowHighlight );  
+  color: var( --darkRed );  
 }
 
 .font-size-sm {
@@ -77,7 +82,7 @@ h2.banner {
 
 h3 {
   color: #113573;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
   font-style: italic;
 }
@@ -94,31 +99,65 @@ h5 {
   font-weight: bold;
 }
 
-.bg-img-home {
+/* 
+Programs
+Performances
+Presentations
+Collaborators
+About Us 
+*/
+
+
+.banner-img-homePage {
   background: url( "http://theharmonycollaboration.com/wp-content/uploads/2021/05/homePageBanner.png" ) no-repeat;
   background-size: cover;
 }
 
-@media (max-width: 300px) {
-  .hc-logo {
-    height: 30px;
-  }
+.banner-img-programs {
+  background: url( "http://theharmonycollaboration.com/wp-content/uploads/2021/05/programsBanner.png" ) no-repeat;
+  background-size: cover;
 }
 
-@media (max-width: 576px) {
+.banner-img-performances {
+  background: url( "http://theharmonycollaboration.com/wp-content/uploads/2021/05/performancesBanner.png" ) no-repeat;
+  background-size: cover;
+}
+
+.banner-img-presentations {
+  background: url( "http://theharmonycollaboration.com/wp-content/uploads/2021/05/presentationsBanner.png" ) no-repeat;
+  background-size: cover;
+}
+
+.banner-img-collaborators {
+  background: url( "http://theharmonycollaboration.com/wp-content/uploads/2021/05/collaboratorsBanner.png" ) no-repeat;
+  background-size: cover;
+}
+
+.banner-img-aboutUs {
+  background: url( "http://theharmonycollaboration.com/wp-content/uploads/2021/05/aboutUsBanner.png" ) no-repeat;
+  background-size: cover;
+}
+
+hr.link-accent {
+  margin: auto;
+  border-top: 3px solid var( --darkRed );
+}
+
+
+@media (max-width: 992px) {
   .hc-logo {
-    height: 35px;
+    height: 45px;
   }
   h1 {
-    font-size: 1.3rem;
+    font-size: 2rem;
   }
   h2 {
-    font-size: 1.6rem;
+    font-size: 3.5rem;
   }
   h2.banner {
-    padding-top: 6rem;
-    padding-left: 0;
-    padding-bottom: .1rem;
+    padding-top: 10rem;
+    padding-left: .5rem;
+    padding-bottom: 1rem;
   }
 }
 
@@ -137,22 +176,44 @@ h5 {
     padding-left: 0;
     padding-bottom: .5rem;
   }
-}
-
-@media (max-width: 992px) {
-  .hc-logo {
-    height: 45px;
-  }
-  h1 {
+  h3 {
     font-size: 2rem;
   }
+}
+
+@media (max-width: 576px) {
+  .hc-logo {
+    height: 35px;
+  }
+  h1 {
+    font-size: 1.3rem;
+  }
   h2 {
-    font-size: 3.5rem;
+    font-size: 1.8rem;
   }
   h2.banner {
-    padding-top: 10rem;
-    padding-left: .5rem;
-    padding-bottom: 1rem;
+    padding-top: 6rem;
+    padding-left: 0;
+    padding-bottom: .1rem;
   }
+  h3 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .hc-logo {
+    height: 30px;
+  }
+  h1 {
+    font-size: 1.3rem;
+  }
+  h2 {
+    font-size: 1.6rem;
+  }
+  h3 {
+    font-size: 1.4rem;
+  }
+
 }
 
